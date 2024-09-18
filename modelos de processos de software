@@ -1,0 +1,22 @@
+Modelo de software: 
+Representação simplificada de um processo de software.
+Os modelos não são descrições definitivas dos processos de softaware. São abstrações que podem ser usadas para explicar diferentes abordagens de desenvolvimento de software.
+Modelos:
+O modelo Cascata:
+Considera atividades fundamentais do processo de especificação, desenvolvimento, validação e evolução, representa cada uma delas como fases distintas: especificação de requisitos, prjeto de software, implementaçãoo, teste e assim por diante.
+Desenvolvimento incremental: 
+Intercala atividades de especificação, desenvolvimento e validação. O sistema é desenvolvido como uma série de versóes(incrementos), de maneira que cada versão adiciona funcionalidade à anterior.
+Engenharia de software orientada a reúso:
+Baseia-se na existencia de um número significativo de componentes em um sistema de grande porte. O processo de desenvolvimento concentra-se na integração desses componentes em um sistema já existente em vez dedesenvolver um sistema do zero.
+--------------------------
+Por causa do encadeamento entre uma fase e outra, o modelo cascata é conhecido como modelo em cascata ou ciclo de vida de software. O modelo em cascata é um processo dirigido a planas, ou seja, você deve planejar todas as atividades do processo antes de começar a trabalhar
+nelas.
+Estágios do modelo:
+Anaálise e definição de requisitos: 
+Servi~ços, restrições e metas do sistema são estabelecidos por meio de consulta aos usuários. São definidos detalhes e funcionam como uma especificação do sistema.
+Projeto de sistema e software:
+Aloca requisitos tanto para sistemas de hardware como para sistemas de software, por meio da definição de uma arquitetura geral do sistema. 
+Implementação e teste unitário:
+O projeto de software é desenvolvido como um conjunto de prorgramas ou unidades de programas
+Integração e teste de sistema:
+Unidades individuais do programa ou programas são integradas e testadas como um sistema completo para assegurar que os requisitos
