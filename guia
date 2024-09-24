@@ -1,0 +1,43 @@
+Para trabalhar com persistência de dados em arquivos TXT em Python, você pode usar a função `open()` para ler, escrever e adicionar dados aos arquivos. Aqui estão alguns exemplos básicos:
+
+### 1. Ler um arquivo TXT
+```python
+with open('arquivo.txt', 'r') as file:
+    conteudo = file.read()
+    print(conteudo)
+```
+Este código abre o arquivo `arquivo.txt` no modo de leitura (`'r'`) e imprime seu conteúdo.
+
+### 2. Escrever em um arquivo TXT
+```python
+with open('arquivo.txt', 'w') as file:
+    file.write('Olá, mundo!')
+```
+Este código abre o arquivo `arquivo.txt` no modo de escrita (`'w'`) e escreve "Olá, mundo!" no arquivo. Se o arquivo já existir, seu conteúdo será substituído.
+
+### 3. Adicionar dados a um arquivo TXT
+```python
+with open('arquivo.txt', 'a') as file:
+    file.write('\nAdicionando uma nova linha.')
+```
+Este código abre o arquivo `arquivo.txt` no modo de adição (`'a'`) e adiciona uma nova linha ao final do arquivo.
+
+### 4. Ler linhas específicas de um arquivo TXT
+```python
+with open('arquivo.txt', 'r') as file:
+    linhas = file.readlines()
+    for linha in linhas:
+        print(linha.strip())
+```
+Este código lê todas as linhas do arquivo e as imprime uma a uma, removendo espaços em branco no início e no final de cada linha com `strip()`.
+
+Esses são os conceitos básicos para manipular arquivos de texto em Python. Se precisar de mais detalhes ou exemplos avançados, sinta-se à vontade para perguntar!
+https://www.bing.com/videos/riverview/relatedvideo?q=persistencia+em+arquivos+txt+como+fazer+em+python&mid=50928EBEA31344DAB45F50928EBEA31344DAB45F&FORM=VIRE
+Fonte: conversa com o Copilot, 24/09/2024
+(1) Python Arquivos TxT - Em 7 Minutos [FÁCIL] + DESAFIOS. https://www.youtube.com/watch?v=F8KB5_sEQH0.
+(2) Como Ler, Editar e Criar Arquivos de Texto com Python - [Trabalhando com Textos no Python]. https://www.youtube.com/watch?v=AvUG8wZMh_E.
+(3) Manipulando Arquivos TXT em Python com a Expressão WITH. https://www.youtube.com/watch?v=HoiKcyvpq4g.
+(4) Persistência de Dados — Documentação Python 3.12.6. https://docs.python.org/pt-br/3/library/persistence.html.
+(5) Arquivos de Texto com Python - Como Ler, Editar e Criar?. https://www.hashtagtreinamentos.com/arquivos-de-texto-com-python.
+(6) Persistência de Dados em Python: Pickle - TabNews. https://www.tabnews.com.br/DanielNeresRodrigues/persistencia-de-dados-em-python-pickle.
+(7) Computação II - Python Aula 6 - Persistência de Dados - UFRJ. https://www.dcc.ufrj.br/~pythonufrj/aulas-python2_37/aula6_teorica.pdf.
